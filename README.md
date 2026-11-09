@@ -122,6 +122,12 @@ Each source table has a many-to-one relationship to `Calendar`. Calculations use
 
 The verified DAX definitions are documented in [`measures.md`](docs/measures.md). Transformation and analytical choices are documented in [`methodology.md`](docs/methodology.md).
 
+### Power BI Data Model Diagram
+
+The diagram below shows the five-table semantic model and the relationships connecting the four operational tables to the shared Calendar dimension.
+
+![Power BI Semantic Model](screenshots/Semantic_model.png)
+
 ## Tools and skills demonstrated
 
 - Power BI Service and semantic modelling
