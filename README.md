@@ -30,6 +30,58 @@ The visuals show that December combined the highest monthly production with the 
 
 ## Report pages
 
+## Business Questions, Key Findings & Recommendations
+
+This analysis examines production performance, downtime patterns, and operational efficiency using industrial beverage filling-line data from July 2022 to February 2023. The objective is to identify operational patterns that could support further investigation and data-informed production planning.
+
+### 1. How efficiently does the production line operate?
+
+**Finding:** The line recorded a weighted operational efficiency of **42.7%** over the analysed period. This metric is calculated as total operating time divided by total monitored time, rather than as a simple average of daily efficiency percentages.
+
+**Interpretation:** Operating time represented approximately 42.7% of monitored time under the dataset's definitions. Efficiency also varied across months, weekdays, and hours.
+
+**Recommendation:** Investigate periods of lower efficiency and assess whether the observed variation is associated with scheduled pauses, production schedules, or recorded downtime. The dataset does not establish the underlying causes.
+
+### 2. When does the greatest downtime occur?
+
+**Finding:** Total recorded downtime was approximately **7,910 minutes**. December 2022 had the highest monthly downtime total, while Tuesday recorded the highest cumulative downtime among weekdays.
+
+**Interpretation:** Downtime was unevenly distributed across the reporting period. December also recorded the highest monthly production, so its elevated downtime total should not automatically be interpreted as poorer performance without considering production activity and monitored hours.
+
+**Recommendation:** Compare downtime rates against monitored time and production volume before identifying priority periods for operational investigation.
+
+### 3. Are downtime events predominantly short or long?
+
+**Finding:** The report recorded **1,388 downtime events**, averaging **5.7 minutes** per event. The longest recorded event lasted **349.83 minutes**. Of all recorded events, **1,216 (approximately 87.6%)** lasted under five minutes.
+
+**Interpretation:** Most interruptions were short in duration, although the dataset also includes substantially longer events. Event frequency alone does not indicate which duration category contributed the most total downtime.
+
+**Recommendation:** Investigate both recurring short interruptions and unusually long events. Compare their cumulative downtime contributions before prioritising corrective actions.
+
+### 4. When is production activity highest?
+
+**Finding:** Total production was approximately **212,000 litres** during the reporting period. Tuesday had the highest cumulative production among weekdays. Hourly production varied considerably, with the highest observed aggregate hourly production around 15:00.
+
+**Interpretation:** Production activity was not evenly distributed throughout the working day or across weekdays. These differences may reflect operating schedules or production activity, but the available data does not establish their causes.
+
+**Recommendation:** Compare production by hour against monitored operating time and downtime to identify periods that merit further investigation.
+
+### 5. What operational priorities emerge from the analysis?
+
+The descriptive findings suggest three areas for further investigation:
+
+1. **Downtime concentration:** Examine December's elevated downtime alongside its high production volume, using exposure-adjusted comparisons where possible.
+2. **Interruption patterns:** Evaluate the cumulative impact of frequent short stoppages separately from longer downtime events.
+3. **Efficiency variation:** Investigate low-efficiency periods using more detailed operational, equipment, and scheduling data.
+
+### Overall Conclusion
+
+The Power BI analysis consolidates production, downtime, and operational-efficiency records into four interactive report pages. Across July 2022 to February 2023, the line recorded approximately **212K litres of production**, **7.91K minutes of downtime**, **1,388 downtime events**, and **42.7% weighted operational efficiency**.
+
+The findings highlight variations in production activity, downtime concentration, and efficiency across time periods. They provide a basis for prioritising further operational analysis, but do not demonstrate causal relationships or quantify potential financial savings.
+
+**Analytical limitation:** The public dataset does not provide sufficient equipment-level fault, operator, or shift information to establish root causes. Recommendations are investigative priorities, not verified operational improvements.
+
 ### 1. Operations Overview
 
 ![Operations Overview](screenshots/01-operations-overview.png)
