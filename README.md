@@ -128,6 +128,16 @@ The diagram below shows the five-table semantic model and the relationships conn
 
 ![Power BI Semantic Model](screenshots/Semantic_model.png)
 
+## Interactive Dashboard Demonstration
+
+Watch a walkthrough of the four-page Power BI dashboard, demonstrating report navigation, interactive filtering, production analysis, downtime monitoring, and operational efficiency metrics.
+
+[![Watch the Power BI Dashboard Demo](https://img.youtube.com/vi/qQbN8jfCTiE/hqdefault.jpg)](https://youtu.be/qQbN8jfCTiE)
+
+**[Watch the full dashboard demonstration on YouTube](https://youtu.be/qQbN8jfCTiE)**
+
+The video complements the report screenshots, semantic model, verified DAX measures, and methodology documented in this repository.
+
 ## Tools and skills demonstrated
 
 - Power BI Service and semantic modelling
